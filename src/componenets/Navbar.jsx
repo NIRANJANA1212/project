@@ -8,30 +8,16 @@ const Navbar = () => {
         <AppBar position='static'>
             <Toolbar>
                 <Typography sx={{ flexGrow: 1 }} align='left' variant='h6'>
-                  APP
+                  Blog
                 </Typography>
                 <Button>
-                  <Link to='/' Style={{color:'white'}}>Login</Link>
+                  <Link to='/' Style={{color:'white'}}>AddBlog</Link>
                 </Button>
                 <Button>
-                  <Link to='/sign' Style={{color:'white'}}>Signup</Link>
+                  <Link to='/sign' Style={{color:'white'}}>DashBoard</Link>
                 </Button>
-                <Button>
-                  <Link to='/a' Style={{color:'white'}}>Table</Link>
-                </Button>
-                <Button>
-                  <Link to='/b' Style={{color:'white'}}>Texts</Link>
-                </Button>
-                <Button>
-                  <Link to='/c' Style={{color:'white'}}>Api</Link>
-                </Button>
-                <Button>
-                  <Link to='/d' Style={{color:'white'}}>Grida</Link>
-                </Button>
-                <Button>
-                  <Link to='/e' Style={{color:'white'}}>Carda</Link>
-                </Button>
-            </Toolbar>
+
+            </Toolbar>                
         </AppBar>
     </div>
   )
