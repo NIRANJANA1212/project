@@ -18,9 +18,9 @@ function Blog() {
     <div className="Blog">
       <Navbar/>
       <Routes>
-        <Route path='/' element={<Login/>}></Route>
-        <Route path='/sign' element={<Signup/>}></Route>
-        <Route path='/count' element={<Counter/>}></Route>
+        <Route path='/' element={<AddBlog/>}></Route>
+        <Route path='/sign' element={<DashBoard/>}></Route>
+        // <Route path='/count' element={<Counter/>}></Route>
         // <Route path='/a' element={<Tables/>}></Route>
         // <Route path='/b' element={<Texts/>}></Route>
         // <Route path='/c' element={<Api/>}></Route>
